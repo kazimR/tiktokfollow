@@ -1,5 +1,5 @@
 # Tiktok Follow (While You Sleep)
-The purpose of this project is to automate the TikTok following such that one can click the follow button. This program acts as a bot.
+The purpose of this project is to automate the TikTok following such that one can click the follow button while actually the bot is cliking (not a human). This program acts as a bot.
 
 ## Description
 The code uses the selinium driver for Firefox. The code uses logger to log for errors and information extracted out of the program.
@@ -23,6 +23,10 @@ https://support.mozilla.org/en-US/kb/profile-manager-create-remove-switch-firefo
 * Run Firefox Browser <br /> 
 * Signin to tiktok <br /> 
 * Execute command "python3 tiktok_follow_Firefox_foryou.py" <br /> 
+
+### Useful Tips
+* "watch grep -c 'FollowButtonClicked' std.log" to find how many time Follow button is clicked
+* "tail -f std.log" to view the latest logs 
 
 ### Authors
 KazimR <br /> 
