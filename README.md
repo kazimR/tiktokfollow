@@ -5,7 +5,7 @@ The purpose of this project is to automate the TikTok following such that one ca
 The code uses the selinium driver for Firefox. The code uses logger to log for errors and information extracted out of the program.
 
 ## Getting Started
-### Dependencies.
+### Dependencies
 
 * Selinium  <br /> 
 * logging
